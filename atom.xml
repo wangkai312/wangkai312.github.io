@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://wangkai312.github.io</id>
-    <title>Gridea</title>
-    <updated>2021-02-22T03:29:48.680Z</updated>
+    <title>珠珠</title>
+    <updated>2021-02-22T03:31:51.502Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://wangkai312.github.io"/>
     <link rel="self" href="https://wangkai312.github.io/atom.xml"/>
-    <subtitle>温故而知新</subtitle>
+    <subtitle>有时间可以探索一下</subtitle>
     <logo>https://wangkai312.github.io/images/avatar.png</logo>
     <icon>https://wangkai312.github.io/favicon.ico</icon>
-    <rights>All rights reserved 2021, Gridea</rights>
+    <rights>All rights reserved 2021, 珠珠</rights>
     <entry>
         <title type="html"><![CDATA[欢迎欢迎！]]></title>
         <id>https://wangkai312.github.io/post/huan-ying-huan-ying/</id>
