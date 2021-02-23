@@ -1,22 +1,103 @@
-<?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://wangkai312.github.io</id>
-    <title>珠珠</title>
-    <updated>2021-02-23T06:00:18.800Z</updated>
-    <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://wangkai312.github.io"/>
-    <link rel="self" href="https://wangkai312.github.io/atom.xml"/>
-    <subtitle>有时间可以探索一下</subtitle>
-    <logo>https://wangkai312.github.io/images/avatar.png</logo>
-    <icon>https://wangkai312.github.io/favicon.ico</icon>
-    <rights>All rights reserved 2021, 珠珠</rights>
-    <entry>
-        <title type="html"><![CDATA[Mysql高可用方案]]></title>
-        <id>https://wangkai312.github.io/post/mysql-gao-ke-yong-fang-an/</id>
-        <link href="https://wangkai312.github.io/post/mysql-gao-ke-yong-fang-an/">
-        </link>
-        <updated>2021-02-23T05:59:12.000Z</updated>
-        <content type="html"><![CDATA[<p>1、Mysql Replication:Mysql复制<br>
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" >
+
+<title>Mysql高可用方案 | 珠珠</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+<link rel="shortcut icon" href="https://wangkai312.github.io/favicon.ico?v=1614060011825">
+<link rel="stylesheet" href="https://wangkai312.github.io/styles/main.css">
+
+
+
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+
+
+
+    <meta name="description" content="1、Mysql Replication:Mysql复制
+1.1、基于binlog的三种模式
+1、	statement模式：基于语句进行复制（5.5.6之前的默认模式），主服务器执行失去了语句，在从服务器进行执行相同的sql语句。
+2、	ro..." />
+    <meta name="keywords" content="" />
+  </head>
+  <body>
+    <div id="app" class="main">
+
+      <div class="sidebar" :class="{ 'full-height': menuVisible }">
+  <div class="top-container" data-aos="fade-right">
+    <div class="top-header-container">
+      <a class="site-title-container" href="https://wangkai312.github.io">
+        <img src="https://wangkai312.github.io/images/avatar.png?v=1614060011825" class="site-logo">
+        <h1 class="site-title">珠珠</h1>
+      </a>
+      <div class="menu-btn" @click="menuVisible = !menuVisible">
+        <div class="line"></div>
+      </div>
+    </div>
+    <div>
+      
+        
+          <a href="/" class="site-nav">
+            首页
+          </a>
+        
+      
+        
+          <a href="/archives" class="site-nav">
+            归档
+          </a>
+        
+      
+        
+          <a href="/tags" class="site-nav">
+            标签
+          </a>
+        
+      
+        
+          <a href="/post/about" class="site-nav">
+            关于
+          </a>
+        
+      
+    </div>
+  </div>
+  <div class="bottom-container" data-aos="flip-up" data-aos-offset="0">
+    <div class="social-container">
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    </div>
+    <div class="site-description">
+      有时间可以探索一下
+    </div>
+    <div class="site-footer">
+      Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a> | <a class="rss" href="https://wangkai312.github.io/atom.xml" target="_blank">RSS</a>
+    </div>
+  </div>
+</div>
+
+
+      <div class="main-container">
+        <div class="content-container" data-aos="fade-up">
+          <div class="post-detail">
+            <h2 class="post-title">Mysql高可用方案</h2>
+            <div class="post-date">2021-02-23</div>
+            
+            <div class="post-content" v-pre>
+              <p>1、Mysql Replication:Mysql复制<br>
 1.1、基于binlog的三种模式<br>
 1、	statement模式：基于语句进行复制（5.5.6之前的默认模式），主服务器执行失去了语句，在从服务器进行执行相同的sql语句。<br>
 2、	row模式：基于行的复制（5.5.7之后的默认模式），将更改的内容复制到从库中，而不是将sql语句在从库中重新执行一遍。Mysql5.版本以后的都支持。<br>
@@ -146,28 +227,46 @@ https://blog.csdn.net/yzj5208/article/details/81288436<br>
 https://blog.csdn.net/u013399093/article/details/70597712<br>
 https://www.cnblogs.com/robbinluobo/p/8294740.html<br>
 https://www.cnblogs.com/gered/p/11221702.html#autoid-3-0-0（主要的参考）</p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[图片大全]]></title>
-        <id>https://wangkai312.github.io/post/tu-pian-da-quan/</id>
-        <link href="https://wangkai312.github.io/post/tu-pian-da-quan/">
-        </link>
-        <updated>2021-02-22T05:37:47.000Z</updated>
-        <content type="html"><![CDATA[<p><img src="https://wangkai312.github.io/post-images/1613972291770.jpg" alt="" loading="lazy"><br>
-<img src="https://wangkai312.github.io/post-images/1613972296234.jpg" alt="" loading="lazy"><br>
-<img src="https://wangkai312.github.io/post-images/1613972300295.jpg" alt="" loading="lazy"><br>
-<img src="https://wangkai312.github.io/post-images/1613972303904.png" alt="" loading="lazy"></p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[欢迎欢迎！]]></title>
-        <id>https://wangkai312.github.io/post/huan-ying-huan-ying/</id>
-        <link href="https://wangkai312.github.io/post/huan-ying-huan-ying/">
-        </link>
-        <updated>2021-02-22T03:19:56.000Z</updated>
-        <content type="html"><![CDATA[<p>👏  欢迎来到这里！<br>
-✍️  没事干的时候可以看看这里，有惊喜哟❤️</p>
-]]></content>
-    </entry>
-</feed>
+
+            </div>
+            
+            
+              <div class="next-post">
+                <div class="next">下一篇</div>
+                <a href="https://wangkai312.github.io/post/tu-pian-da-quan/">
+                  <h3 class="post-title">
+                    图片大全
+                  </h3>
+                </a>
+              </div>
+            
+
+            
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script type="application/javascript">
+
+AOS.init();
+
+var app = new Vue({
+  el: '#app',
+  data: {
+    menuVisible: false,
+  },
+})
+
+</script>
+
+
+
+
+
+
+  </body>
+</html>
