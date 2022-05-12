@@ -2,14 +2,14 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://wangkai312.github.io</id>
     <title>珠珠</title>
-    <updated>2021-07-19T07:30:36.625Z</updated>
+    <updated>2022-05-12T03:32:09.366Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://wangkai312.github.io"/>
     <link rel="self" href="https://wangkai312.github.io/atom.xml"/>
     <subtitle>有时间可以探索一下</subtitle>
     <logo>https://wangkai312.github.io/images/avatar.png</logo>
     <icon>https://wangkai312.github.io/favicon.ico</icon>
-    <rights>All rights reserved 2021, 珠珠</rights>
+    <rights>All rights reserved 2022, 珠珠</rights>
     <entry>
         <title type="html"><![CDATA[元宵节快乐！！]]></title>
         <id>https://wangkai312.github.io/post/yuan-xiao-jie-kuai-le/</id>
